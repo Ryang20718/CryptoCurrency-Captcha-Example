@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+
+<h1>Verification Captcha</h1>
+<form action="?" method="post">
+	<!-- other form fields -->
+
+	<script src="https://authedmine.com/lib/captcha.min.js" async></script>
+	<script>
+		function myCaptchaCallback(token) {
+			alert('Hashes reached. Token is: ' + token);
+		}
+	</script>
+	<div class="coinhive-captcha" 
+		data-hashes="1024" 
+		data-key="iZhSbE67zbXY3dRhT24cG6LkvL31PZZX"
+		data-whitelabel="false"
+		data-disable-elements="input[type=submit]"
+		data-callback="myCaptchaCallback"
+	>
+		<em>Loading Captcha...<br>
+		If it doesn't load, please disable Adblock!</em>
+	</div>
+
+	<!-- submit button will be automatically disabled and later enabled
+		again when the captcha is solved -->
+	<input type="submit" value="Submit"/>
+</form>
+
+</body>
+</html>
+
+
