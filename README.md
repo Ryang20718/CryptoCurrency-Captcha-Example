@@ -3,4 +3,4 @@
 ## Example of Cryptocurrency mining(Monero) from captcha.
 Feel free to use this example as a substitution for ads on websites!
 
-### Take a look at the sample http://ryanyang.me/CryptoCurrency-Captcha-Example/
+ sample http://ryanyang.me/CryptoCurrency-Captcha-Example/
